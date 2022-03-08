@@ -1,0 +1,46 @@
+<%-include("partials/header")-%>
+<script>document.querySelector("title").innerHTML="sign Up"</script>
+<div class="signForm justify-content-center" >
+<form class="row g-1" action="/" method="post">
+    <div class="card">
+        <div class="card-title">
+            <h1>sign up</h1>
+        </div>
+        <div class="card-body">
+          This is some text within a card body.
+        </div>
+      </div>
+    <div class="col-md-6">
+      <label for="Fname" class="form-label">First Name</label>
+      <input type="text" class="form-control" id="Fname" name="Fname">
+    </div>
+    <div class="col-md-6">
+      <label for="Lname" class="form-label">Last Name</label>
+      <input type="text" class="form-control" id="Lname" name="Lname">
+    </div>
+    <div class="col-12">
+      <label for="inputAddress" class="form-label">Address</label>
+      <input type="text" class="form-control" id="inputAddress" name="address">
+    </div>
+    <div class="col-6">
+      <label for="datebirth" class="form-label">Birth Date</label>
+      <input type="date" class="form-control" id="datebirth" name="birthdate">
+    </div>
+    <div class="col-6">
+      <label for="mobile" class="form-label">number</label>
+      <input type="tel" class="form-control" id="mobile" name="mobile">
+    </div>
+    <div class="col-md-4">
+      <label for="gender" class="form-label">gender</label>
+      <select id="gender" class="form-select" name="gender">
+        <option>Male</option>
+        <option>Female</option>
+      </select>
+    </div>
+    <div class="col-12 justify-content-center">
+      <button type="submit" class="btn btn-primary" name="action" value="sign">Sign in</button>
+    </div>
+  </form>
+</div>
+
+<%-include("partials/footer")-%>

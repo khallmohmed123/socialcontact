@@ -1,0 +1,17 @@
+.signForm{
+    width: 1000px;
+    margin: 0 auto;
+}
+.login-front{
+    margin: 0 auto;
+    width: max-content;
+}
+.inputsignForm input{
+    float: right;
+}
+a:link {
+    text-decoration: none;
+  }
+  .headingelement{
+      padding-bottom: 100px;
+  }
