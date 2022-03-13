@@ -8,10 +8,42 @@
 }
 .inputsignForm input{
     float: right;
+    text-decoration-color: beige;
 }
 a:link {
     text-decoration: none;
   }
   .headingelement{
       padding-bottom: 100px;
+      color: azure;
+  }
+  .hidelm{
+      visibility: hidden;
+  }
+  .showelem{
+      visibility: visible;
+  }
+  .imgprofile{
+      border-radius: 50%;
+      height: 70px;
+      width: 70px;
+      
+  }
+  .searico{
+      background-color: darkslategrey;
+  }
+  .searclasss button input{
+      display: inline-block;
+      position: absolute;
+  }
+  .sideleft{
+        position: fixed;
+        background-color: lightgreen;
+        padding: 10px 20px;
+        top: 85px;
+        left: 0;
+        bottom: 0;
+  }
+  .sideleft a:link {
+      color: yellow;
   }
